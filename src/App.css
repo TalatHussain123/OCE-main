@@ -1,0 +1,167 @@
+.sideNavlink{
+    color: #B2B2BC;
+    padding: 12px 19px;
+}
+a.sideNavlink.active{
+    cursor: pointer;
+    background-color: #563BFF;
+    color: #fff;
+    border-radius: 16px;
+    box-shadow: 0px 10px 37px #563bff47;
+}
+a.sideNavlink.active::before {
+    border-radius: 0px 30px 30px 0px;
+    top: 6px;
+    width: 3px;
+    height: 27px;
+    position: absolute;
+    display: block;
+    content: "";
+    left: -14px;
+    background-color: #3734A9;
+}
+.logOut .logoutBtn {
+    position: absolute;
+    bottom: 30px;
+    left: 25px;
+    font-size: 17px;
+}
+
+.statsHead {
+    margin-top: 33px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.barStats {
+    margin-left: 15px;
+}
+
+.statTab ul li button {
+    width: 20px;
+}
+
+.nav-fill .nav-item .nav-link {
+    width: fit-content;
+    margin-right: 0px;
+}
+
+.statTab .nav-tabs {
+    display: flex;
+    width: fit-content;
+    justify-content: flex-start;
+}
+
+.statTab .nav-tabs li {
+    width: fit-content;
+}
+
+.statTab .nav-tabs .nav-link.active {
+    background: none;
+    border: none;
+    color: #563bff;
+}
+
+.statTab .nav-tabs li button {
+    color: black;
+}
+
+.statsHead select {
+    background: none;
+    outline: none;
+}
+
+.statsHead h3 {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.sysTutorial h2 {
+    font-size: 28px;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.sysTutorial {
+    margin-top: 15px;
+}
+.singleTut iframe {
+    border-radius: 15px;
+}
+
+a.navbar-brand img.nav-logo {
+    width: 60px;
+    height: 100%;
+}
+span.navbar-text a.nav-btn {
+    font-size: 15px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    text-decoration: none;
+}
+
+span.navbar-text {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.navbar-light .navbar-text a.nav-btn.regOrg {
+    background-color: #6930c3;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.hero-left h2 {
+    font-size: 60px;
+    margin-bottom: 0px;
+    font-weight: 100;
+    font-family: 'Raleway';
+}
+
+.hero-left p {font-size: 14px;font-family: 'Raleway';font-weight: 500;color: #707070;width: 72%;}
+
+.hero-left a {
+    background-color: #6930c3;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    text-decoration: none;
+}
+.srchbtn a {
+    background-color: #6930c3;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-size: 15px;
+    font-family: 'Raleway';
+    display: flex;
+    font-weight: bold;
+    text-decoration: none;
+    width: fit-content;
+    margin: auto;
+    margin-top: 10px;
+}
+.srchbtn a:hover {
+    background-color: #6930c3;
+    color: #fff;
+}
+.hero-left {
+    margin-top: 60px;
+}
+
+section.heroSection .col img {
+    width: 84%;
+    float: right;
+}
+.me-auto.navbar-nav a.nav-link {
+    font-size: 14px;
+    font-family: 'Raleway';
+    font-weight: bolder;
+    color: #343434;
+}
+

@@ -1,0 +1,94 @@
+.loginpage,.regPage {
+    padding: 22px 45px;
+}
+
+.signUpForm .FormHead h3 {
+    font-size: 30px;
+    font-family: 'Raleway';
+    font-weight: bold;
+    color: #352B75;
+    margin: 0px;
+}
+.form-group a.loginlink {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 15px;
+    text-decoration: none;
+    font-family: 'Raleway';
+    cursor: pointer;
+    font-weight: 600;
+    color: #6930C3;
+}
+.signUpForm .FormHead p {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Raleway';
+    color: #6930C3;
+    opacity: 0.5;
+}
+.loginpage .logo img,.regPage .logo img {
+    width: 100px;
+    margin-bottom: 50px;
+}
+img.img-fluid.sideAuthImg {width: 425px;}
+.signUpForm .FormHead {
+    margin-bottom: 25px;
+}
+.form-group label {
+    font-family: 'Raleway';
+    font-size: 16px;
+    margin-bottom: 3px;
+    font-weight: bold;
+    color: #352b75;
+  }
+form .form-group input[type='password'],form .form-group input[type='email'],form .form-group input[type='text'],form .form-group input[type='Date'],form .form-group input[type='Time'],form .form-group textarea {
+    font-weight: 600;
+    font-size: 16px;
+    padding: 12px;
+    width: 100%;
+    border: 2px solid #6930C3;
+    color: #6930C3;
+    margin-bottom: 15px;
+    outline: none;
+    font-family: 'Raleway';
+    border-radius: 12px;
+}
+
+.form-group button {
+    text-align: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'Raleway';
+    border-radius: 12px;
+    background-color: #352b75;
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    color: white;
+    justify-content: space-around;
+}
+
+.form-group.loginBtn {
+    display: flex;
+    margin-top: 25px;
+    gap: 18px;
+}
+
+.form-group.loginBtn a.btn {
+    flex-grow: 1;
+    align-items: center;
+    flex-basis: 0;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Raleway';
+    border-radius: 12px;
+    border: 2px solid;
+    color: #352b75;
+}
+
+.signUpForm {
+    width: 60%;
+}

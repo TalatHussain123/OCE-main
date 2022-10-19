@@ -1,0 +1,135 @@
+.singleTest {
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 14px 16px;
+}
+
+.TestNum span,.testDate span {
+    font-family: 'Raleway';
+    font-size: 16px;
+    color: #B8B8B8;
+}
+ul.interest {
+    margin: 0px;
+    padding: 0;
+    display: flex;
+    gap: 5px;
+}
+
+ul.interest li {font-weight: 700;background-color: #dfdfdf;padding: 5px 6px;border-radius: 9px;text-transform: uppercase;font-family: 'Raleway';font-size: 13px;}
+.TestNum p, .testDate p {
+    font-family: 'Raleway',sans-serif;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+.testActBtns {
+    float: right;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.udAct {
+    display: flex;
+    gap: 5px;
+}
+
+.singleTest .row {
+    align-items: center;
+}
+
+.viewBtn button {
+    border: 1px solid;
+    padding: 4px 20px;
+    background-color: #6930C317;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Raleway';
+    color: #6930C3;
+}
+
+.udAct .edtTest {
+    background-color: #f1ecfa;
+    border: 1px solid;
+    color: #6930C3;
+}
+
+.udAct .edtTest,.udAct button {
+    padding: 7px 10px;
+    border-radius: 15px;
+    font-size: 22px;
+}
+
+.udAct button.dltTest {
+    border: 1px solid;
+    color: #FF0000;
+    background-color: #FE00001A;
+}
+
+.testActBtns.btn_grid {
+    flex-direction: column;
+}
+
+.testActBtns.btn_grid {
+    gap: 25px;
+}
+.optionSelected {
+    display: flex;
+    gap: 10px;
+}
+
+.optionSelected li {
+    padding: 0px;
+    list-style: none;
+    flex: 1 1 0px;
+    font-family: 'Raleway';
+    font-size: 15px;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.form-group-attach input[type='text']{
+    font-size: 15px;
+    outline: none;
+    font-family: 'Raleway';
+    width: 100%;
+    border-radius: 12px;
+    padding: 10px 10px;
+}
+.attachQues{
+margin-bottom: 10px;
+}
+button.addAttach {
+    height: 100%;
+    display: flex;
+    background-color: #563bff;
+    width: 71px;
+    border-radius: 12px;
+    font-size: 15px;
+    font-family: 'Raleway';
+    color: white;
+    font-weight: 700;
+    justify-content: space-around;
+    align-items: center;
+}
+.addAttachBtn{
+    padding-right: 114px;
+    display: flex;
+    gap: 20px;
+    margin: 10px 0px;
+    justify-content: flex-end;
+}
+.addAttachBtn button{
+    display: flex;
+    background-color: #563bff;
+    padding: 10px 20px;
+    border-radius: 12px;
+    font-size: 15px;
+    font-family: 'Raleway';
+    color: white;
+    font-weight: 700;
+    justify-content: space-around;
+    align-items: center;
+}

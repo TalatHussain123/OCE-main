@@ -1,0 +1,71 @@
+.singleTest {
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 14px 16px;
+}
+
+.TestNum span,.testDate span {
+    font-family: 'Raleway';
+    font-size: 16px;
+    color: #B8B8B8;
+}
+
+.TestNum p, .testDate p {
+    font-family: 'Raleway',sans-serif;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+.testActBtns {
+    float: right;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.udAct {
+    display: flex;
+    gap: 5px;
+}
+
+.singleTest .row {
+    align-items: center;
+}
+
+.viewBtn button {
+    border: 1px solid;
+    padding: 4px 20px;
+    background-color: #6930C317;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Raleway';
+    color: #6930C3;
+}
+
+.udAct .edtTest {
+    background-color: #f1ecfa;
+    border: 1px solid;
+    color: #6930C3;
+}
+
+.udAct .edtTest,.udAct button {
+    padding: 7px 10px;
+    border-radius: 15px;
+    font-size: 22px;
+}
+
+.udAct button.dltTest {
+    border: 1px solid;
+    color: #FF0000;
+    background-color: #FE00001A;
+}
+
+.testActBtns.btn_grid {
+    flex-direction: column;
+}
+
+.testActBtns.btn_grid {
+    gap: 25px;
+}

@@ -1,0 +1,65 @@
+.logo img {
+    width: 80px;
+}
+.blognav.row {
+    padding: 18px 0px;
+}
+.fields {
+    margin-top: 40px;
+}
+
+.interest {
+    margin-top: 20px;
+}
+
+.fields h2,.interest h2 {
+    position: relative;
+    font-size: 28px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+.consultMessage span {
+    display: block;
+    font-size: 16px;
+    text-align: right;
+    font-family: 'Raleway';
+    font-weight: 600;
+}
+.btitle h2 {
+    font-size: 48px;
+    font-family: 'Raleway';
+    font-weight: 300;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+}
+
+.metaData.row .bfield span {
+    font-size: 14px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    color: #9361e3;
+
+    padding: 0px 10px 0px 0px;
+}
+
+.bfield,.binterest {
+    margin: 10px 0px;
+}
+
+.bContent.row p {
+    margin: 0px;
+    font-size: 20px;
+    font-family: 'Raleway';
+    font-weight: 500;
+}
+.binterest span {
+    font-size: 14px;
+    font-family: 'Raleway';
+    font-weight: 700;
+    color: #9361e3;
+    padding: 0px 10px 0px 0px;
+}

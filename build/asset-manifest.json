@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/static/css/main.e4c5b26f.css",
+    "main.js": "/static/js/main.1b4aa244.js",
+    "static/media/registerScreen.png": "/static/media/registerScreen.f1e32af670f63c4dd330.png",
+    "static/media/undraw_online_test_re_kyfx.svg": "/static/media/undraw_online_test_re_kyfx.2bbbdcb50066aba214ac695b22655268.svg",
+    "static/media/logo.png": "/static/media/logo.40fb4b5137219baaa697.png",
+    "index.html": "/index.html",
+    "main.e4c5b26f.css.map": "/static/css/main.e4c5b26f.css.map",
+    "main.1b4aa244.js.map": "/static/js/main.1b4aa244.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e4c5b26f.css",
+    "static/js/main.1b4aa244.js"
+  ]
+}

@@ -1,0 +1,113 @@
+.singleTest {
+    margin-bottom: 10px;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 14px 16px;
+}
+
+.TestNum span,.testDate span {
+    font-family: 'Raleway';
+    font-size: 16px;
+    color: #B8B8B8;
+}
+
+.TestNum p, .testDate p {
+    font-family: 'Raleway',sans-serif;
+    margin: 0;
+    font-size: 24px;
+    font-weight: 700;
+}
+.testActBtns {
+    float: right;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+.appltestContent {
+    margin: 0px auto;
+    width: 70%;
+}
+
+.PriceBtn {
+    text-align: right;
+}
+.Pricetest {
+    text-align: right;
+}
+
+.appltestContent .row {
+    border: 1px solid #e8e8e8;
+    border-radius: 10px;
+}
+
+.TestHead h3 {
+    font-size: 24px;
+    font-family: 'Raleway';
+}
+.priceHead {font-family: 'Raleway';font-size: 16px;font-weight: 500;}
+
+.Pricetest {
+    font-size: 17px;
+    font-family: 'Raleway';
+    font-weight: bold;
+}
+.appltestContent {
+    border: 2px solid #563bff;
+    padding: 10px 20px;
+    border-radius: 12px;
+}
+.PriceBtn button {
+    padding: 10px 15px;
+    background-color: #563bff;
+    border-radius: 12px;
+    font-family: 'Raleway';
+    font-size: 14px;
+    font-weight: bold;
+    color: white;
+    margin-top: 40px;
+}
+.udAct {
+    display: flex;
+    gap: 5px;
+}
+
+.singleTest .row {
+    align-items: center;
+}
+
+.viewBtn button {
+    border: 1px solid;
+    padding: 4px 20px;
+    background-color: #6930C317;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    font-family: 'Raleway';
+    color: #6930C3;
+}
+
+.udAct .edtTest {
+    background-color: #f1ecfa;
+    border: 1px solid;
+    color: #6930C3;
+}
+
+.udAct .edtTest,.udAct button {
+    padding: 7px 10px;
+    border-radius: 15px;
+    font-size: 22px;
+}
+
+.udAct button.dltTest {
+    border: 1px solid;
+    color: #FF0000;
+    background-color: #FE00001A;
+}
+
+.testActBtns.btn_grid {
+    flex-direction: column;
+}
+
+.testActBtns.btn_grid {
+    gap: 25px;
+}
